@@ -25,7 +25,7 @@ This repository contains a shell script designed to automatically check for upda
    chmod +x simplex-chat-updater/update_simplex.sh
    ```
    
-3. **Modify script and change the variable `$target_dir` to your wanted installdir**
+3. **Modify script and change the variable `target_dir` to your wanted installdir**
 
 
 3. **Run the Script**
