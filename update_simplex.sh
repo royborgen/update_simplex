@@ -1,5 +1,5 @@
 #!/bin/sh
-target_dir="/home/roy/AppImages/simplex/"
+target_dir="/home/user/AppImages/simplex/"
 
 echo "Checking for update to SimpleX Chat Desktop..."
 
