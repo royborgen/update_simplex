@@ -25,7 +25,7 @@ installed_version=$(cat version.txt)
 if [ $(echo "$latest_release" "$installed_version" | awk '{print ($1 > $2)}') -gt "0" ] ; then
 	
 	#only try to remove old version if SimpleX Chat is installed
-	if [ $installed_version -ne "0" ] ; then
+	if [ $(echo "$installed_version" | awk '{print ($1 == 0)}') -eq "0" ] ; then
 		echo "Removing old AppImage from /home/roy/AppImages/simplex/"
 		rm -f "simplex-desktop-x86_64.AppImage"
 	fi
@@ -44,5 +44,3 @@ else
 	echo "Installed version is v$installed_version"
 	echo "No new update available"
 fi
-
-
