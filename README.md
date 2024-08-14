@@ -25,7 +25,8 @@ This repository contains a shell script designed to automatically check for upda
    chmod +x simplex-chat-updater/update_simplex.sh
    ```
    
-3. **Modify script and change $target_dir to your wanted installdir**
+3. **Modify script and change ´$target_dir´ to your wanted installdir**
+
 
 3. **Run the Script**
    ```bash
@@ -35,7 +36,7 @@ This repository contains a shell script designed to automatically check for upda
 ## Script Overview
 
 - The script checks the SimpleX Chat GitHub repository for the latest release information.
-- If the directory `$target_dir` does not exist, it creates it and initializes a `version.txt` file with version `0`.
+- If the directory `target_dir` does not exist, it creates it and initializes a `version.txt` file with version `0`.
 - The script compares the latest version from GitHub with the installed version.
 - If a newer version is found, the script removes the old AppImage, downloads the new one, updates the permissions, and writes the new version to `version.txt`.
 
