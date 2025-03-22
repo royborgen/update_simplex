@@ -17,12 +17,12 @@ This repository contains a shell script designed to automatically check for upda
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/simplex-chat-updater.git
+   git clone https://github.com/royborgen/update_simplex.git
    ```
 
 2. **Make the Script Executable**
    ```bash
-   chmod +x simplex-chat-updater/update_simplex.sh
+   chmod +x update_simplex.sh
    ```
    
 3. **Modify script and change the variable `target_dir` to your wanted installdir**
@@ -30,7 +30,7 @@ This repository contains a shell script designed to automatically check for upda
 
 3. **Run the Script**
    ```bash
-   ./simplex-chat-updater/update_simplex.sh
+   ./update_simplex.sh
    ```
 
 ## Script Overview
