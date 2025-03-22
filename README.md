@@ -1,6 +1,6 @@
 # SimpleX Chat Desktop AppImage Updater
 
-This repository contains a shell script designed to automatically check for updates to the SimpleX Chat Desktop AppImage and download the latest version if available. This ensures you always have the most recent features and security patches.
+This repository contains a shell script designed to automatically check for updates to the SimpleX Chat Desktop AppImage and download the latest version if available. This ensures you always have the most recent features and security patches.If SimpleX is not present, the script will download it. 
 
 ## Features
 
@@ -42,13 +42,10 @@ This repository contains a shell script designed to automatically check for upda
 
 ## Troubleshooting
 
-- **Permission Issues**: Ensure the script and the directory have the correct permissions.
+- **Permission Issues**: Ensure the script and the app directory have the correct permissions.
 - **curl Not Installed**: Install `curl` using your package manager (`apt`, `yum`, `brew`, etc.).
 
-## Contributing
-
-Feel free to fork this repository and submit pull requests. We welcome contributions that improve the script's functionality or usability.
 
 ## License
 
-This project is licensed under the MIT License. See the [Wikipedia](https://en.wikipedia.org/wiki/MIT_License) for more details.
+This project is open source, licensed under the GPL-2.0 license. See the projects `LICENSE` file for details.

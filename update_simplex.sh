@@ -1,5 +1,5 @@
 #!/bin/sh
-target_dir="/home/user/AppImages/simplex/"
+target_dir="$HOME/AppImages/simplex/"
 
 echo "Checking for update to SimpleX Chat Desktop..."
 
@@ -11,7 +11,7 @@ echo "Latest release is v"$latest_release
 if [ ! -d "${target_dir}" ]; then
 	echo "SimpleX Chat is not installed"
 	echo "Creating directory $target_dir"
-	mkdir $target_dir
+	mkdir -p $target_dir
 
 	#Creating version.txt to keep track of current installed version
 	echo "0" > "$target_dir/version.txt"
